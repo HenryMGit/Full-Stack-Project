@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <Header course={course}/>
+      <Content/>
       <Content part={part1} numOfExercises={exercises1} />
       <Content part={part2} numOfExercises={exercises2} />
       <Content part={part3} numOfExercises={exercises3} />
