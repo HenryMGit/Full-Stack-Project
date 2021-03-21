@@ -1,6 +1,6 @@
 
-const Part = ({part, numOfExercises}) =>{
-    return <p>{part} {numOfExercises}</p>;
+const Part = ({part}) =>{
+    return <p>{part.name} {part.exercises}</p>;
 }
 
 export default Part;
