@@ -1,3 +1,4 @@
+import React from 'react';
 import Statistic from './Statistic';
 
 const Statistics = ({good,neutral,bad}) =>{
